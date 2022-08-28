@@ -1,0 +1,32 @@
+{
+  "name": "aagl-website",
+  "version": "1.0.0",
+  "description": "AAGL's Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an-anime-team/aagl-website.git"
+  },
+  "author": "Marie <marie@kaifa.ch>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/an-anime-team/aagl-website/issues"
+  },
+  "homepage": "https://github.com/an-anime-team/aagl-website#readme",
+  "dependencies": {
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/react": "^18.0.17",
+    "typescript": "^4.8.2"
+  }
+}
