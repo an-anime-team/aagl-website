@@ -8,7 +8,7 @@ const LoginPage = () => {
   const router = useRouter();
  /*
  * @todo Move from page to popup
- * @body  Make sure that instead of being a **page** it is a **pop-up** inside of the planned head/navbar
+ * @body Make sure that instead of being a **page** it is a **pop-up** inside of the planned head/navbar
  */
   if (!user) {
     return (
