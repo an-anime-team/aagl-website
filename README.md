@@ -1,4 +1,7 @@
-<h1 align="center">AAGL's Website</h1>
+<h1 align="center">
+AAGL's Website<br>
+<a href="https://www.0pdd.com/p?name=an-anime-team/aagl-website"><img src="https://www.0pdd.com/svg?name=an-anime-team/aagl-website" /></a>
+</h1>
 
 <h3>Information</h3>
 <p>This code serves the aagl.launcher.moe site which let's people sign-up and share their Paimon.moe Wish Counter aswell as Enka Cards while also having everything in one spot.</p>
