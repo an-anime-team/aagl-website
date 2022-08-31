@@ -1,6 +1,6 @@
 <h1 align="center">
 AAGL's Website<br>
-<a href="https://www.0pdd.com/p?name=an-anime-team/aagl-website"><img src="https://www.0pdd.com/svg?name=an-anime-team/aagl-website" /></a>
+<a href="https://www.0pdd.com/p?name=an-anime-team/aagl-website" target="_blank"><img src="https://www.0pdd.com/svg?name=an-anime-team/aagl-website" /></a>
 </h1>
 
 <h3>Information</h3>
