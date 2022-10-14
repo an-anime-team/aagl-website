@@ -10,6 +10,4 @@ AAGL's Website<br>
 <ul align="center">
 <li align="center">Create Navbar & Main Pages</li>
 <li align="center">Allow creation of profiles</li>
-<li align="center">Implement Paimon.moe API</li>
-<li align="center">Implement Enka.Network API</li>
 </ul>
