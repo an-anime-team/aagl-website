@@ -4,7 +4,7 @@ import { supabaseClient } from '@supabase/auth-helpers-nextjs';
 import { Typography } from "@supabase/ui";
 
 const LoginPopup = () => {
-  const { user, error } = useUser();
+  const { user, message, error } = useUser();
 
   if (!user) {
     return (
