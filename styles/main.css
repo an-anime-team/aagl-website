@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+    color: #1d1d1f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+section h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+section.hero {
+    text-align: center;
+}
+
+section.gradient {
+    background-image: linear-gradient(72deg, rgba(208, 246, 255, 1) 0.1%, rgba(255, 237, 237, 1) 47.9%, rgba(255, 255, 231, 1) 100.2%);
+}
+
+section.hero .icon-block {
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+}
+
+section.hero .icon-block img {
+    margin-right: 32px;
+}
+
+section.yellow {
+    background: #f7e2c1;
+}
+
+section.blue {
+    background: #c1ddf7;
+}
+
+section.orange {
+    background: #f7d6c1;
+}
+
+section.purple {
+    background: #ddc8e9;
+}
+
+section.green {
+    background: #c8e9d6;
+}
+
+section.gray {
+    background: #fafafa;
+}
+
+.feature-display {
+    overflow: visible;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0 128px;
+}
+
+.feature-display img {
+    flex: 0 0 auto;
+    order: 2;
+    margin: 0 64px;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+}
+
+.feature-display .description {
+    flex: 1 0 auto;
+    padding: 0 10px 0 58px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.feature-display.invert {
+    flex-direction: row-reverse;
+}
+
+.button {
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    background-color: #0071e3;
+    color: #fff;
+    border-radius: 6px;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button.pill {
+    padding: 1rem 2rem;
+    border-radius: 32px;
+}
+
+.launcher-pics {
+    display: inline-block;
+    margin-left: -400px;
+}
+
+.launcher-pics img {
+    border-radius: 16px;
+}
+
+.launcher-pics img:first-of-type {
+    width: 60%;
+    margin-bottom: 64px;
+}
+
+.launcher-pics img:last-of-type {
+    width: 30%;
+    margin-left: -900px;
+}
+
+.launcher-pics.invert {
+    margin-left: 0;
+    margin-right: -400px;
+}
